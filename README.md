@@ -1,1 +1,1 @@
-Examen tipo 2a Evaluación Despliegue de Aplicaciones Web.
+Examen tipo 2a Evaluación Despliegue de Aplicaciones Web
