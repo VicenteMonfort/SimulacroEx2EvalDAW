@@ -7,8 +7,8 @@ class Coche
     public $autonomia;
     public $kmtotales;
 
-    public function __construct($a1,$a2, $a3, $a4){
-        
+    public function __construct($a1, $a2, $a3, $a4){
+
         $this->modelo=$a1;
         $this->combustible=$a2;
         $this->autonomia=$a3;
@@ -17,13 +17,13 @@ class Coche
 
     public function reposta($a){
 
-        return $this->combustible+$a;
+        return $this->autonomia+$a;
     }
 
     public function circula($a){
 
         if ($a<$this->autonomia){
-            return $this->combustible-$a;
+            return $this->autonomia-$a;
             $this->kmtotales+=$a;
         }
         
